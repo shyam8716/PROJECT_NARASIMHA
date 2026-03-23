@@ -31,6 +31,13 @@ Create three objects and display default values.*/
 String movie_name;
 String rating;
 byte release_Year;
+/*15.Create a class Library with variables:
+libraryName
+totalBooks
+Create three objects and print default values.*/
+String library_name;
+byte rotal_books;
+String books_geners;
 public static void main(String[] args) {
     Praticing_Default_Values3 default_values=new Praticing_Default_Values3();
     System.out.println("default account holder name is: "+default_values.account_holder_name);
@@ -48,6 +55,12 @@ public static void main(String[] args) {
     System.out.println("default movie name is: "+movie.movie_name);
     System.out.println("default rating is: "+movie.rating);
     System.out.println("default releasing year is: "+movie.release_Year);
+    Praticing_Default_Values3 library1=new Praticing_Default_Values3();
+    System.out.println("default library name is: "+library1.library_name);
+    Praticing_Default_Values3 library2=new Praticing_Default_Values3();
+    System.out.println("default total books is: "+library1.rotal_books);
+    Praticing_Default_Values3 library3=new Praticing_Default_Values3();
+    System.out.println("default total books is: "+library1.books_geners);
 }
     
 }
