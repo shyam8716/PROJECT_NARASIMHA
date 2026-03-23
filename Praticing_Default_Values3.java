@@ -58,9 +58,9 @@ public static void main(String[] args) {
     Praticing_Default_Values3 library1=new Praticing_Default_Values3();
     System.out.println("default library name is: "+library1.library_name);
     Praticing_Default_Values3 library2=new Praticing_Default_Values3();
-    System.out.println("default total books is: "+library1.rotal_books);
+    System.out.println("default total books is: "+library2.rotal_books);
     Praticing_Default_Values3 library3=new Praticing_Default_Values3();
-    System.out.println("default total books is: "+library1.books_geners);
+    System.out.println("default total books is: "+library3.books_geners);
 }
     
 }
