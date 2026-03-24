@@ -250,5 +250,19 @@ Needs Improvement <input type="radio" name="staff"><br>
 <input type="submit">
 </div>
 </form>
+        <style>
+            canvas{
+                border: 1px solid #f50d0d;
+            }
+        </style><script>
+            window.onload=function(){
+                var canvas=document.getElementById("my_canvas");
+                var context=canvas.getContext("3d");
+                context.moveTo(50,150);
+                context.lineTo(250,50);
+                context.stroke();
+            };
+        </script>
+        <canvas id="my_canvas" width="300" height="200"></canvas>
 </body>
 </html>
